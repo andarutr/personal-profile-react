@@ -1,0 +1,24 @@
+[
+    {
+    "id": "1",
+    "picture": "assets/img/sertifikat/CERT-IQ1LXYPG.webp",
+    "url": "#",
+    "created_at": "2024-03-08 05:53:42",
+    "updated_at": "2024-03-08 05:53:42"
+    },
+    {
+    "id": "2",
+    "picture": "assets/img/sertifikat/fullstack.webp",
+    "url": "https://github.com/andarutr/nomads",
+    "created_at": "2024-03-08 05:54:21",
+    "updated_at": "2024-03-08 05:54:21"
+    },
+    {
+    "id": "3",
+    "picture": "assets/img/sertifikat/codepolitan_skkni.webp",
+    "url": "https://github.com/andarutr/shop-skkni",
+    "created_at": "2024-03-08 05:54:54",
+    "updated_at": "2024-03-08 05:54:54"
+    }
+]
+ 

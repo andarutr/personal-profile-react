@@ -18,12 +18,12 @@ const App = () => {
 
   return (
     <div>
-        <header class="main_header_arae">
-        <div class="navbar-area">
-            <div class="main-responsive-nav">
-                <div class="container">
-                    <div class="main-responsive-menu">
-                        <div class="logo">
+        <header className="main_header_arae">
+        <div className="navbar-area">
+            <div className="main-responsive-nav">
+                <div className="container">
+                    <div className="main-responsive-menu">
+                        <div className="logo">
                             <a href="index.html">
                                 <img src="assets/img/logo.webp" alt="logo" width="50" />
                             </a>
@@ -31,29 +31,29 @@ const App = () => {
                     </div>
                 </div>
             </div>
-            <div class="main-navbar">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+            <div className="main-navbar">
+                <div className="container">
+                    <nav className="navbar navbar-expand-md navbar-light">
+                        <a className="navbar-brand" href="index.html">
                             <img src="assets/img/logo.webp" alt="logo" width="80" />
                         </a>
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link click_menu" onClick={() => navigateTo('home')}>Beranda</a>
+                        <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul className="navbar-nav">
+                                <li className="nav-item">
+                                    <a className="nav-link click_menu" onClick={() => navigateTo('home')}>Beranda</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link click_menu" onClick={() => navigateTo('portfolio')}>Portfolio</a>
+                                <li className="nav-item">
+                                    <a className="nav-link click_menu" onClick={() => navigateTo('portfolio')}>Portfolio</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link click_menu" onClick={() => navigateTo('sertifikat') }>Sertifikat</a>
+                                <li className="nav-item">
+                                    <a className="nav-link click_menu" onClick={() => navigateTo('sertifikat') }>Sertifikat</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link click_menu" onClick={() => navigateTo('contact') }>Kontak</a>
+                                <li className="nav-item">
+                                    <a className="nav-link click_menu" onClick={() => navigateTo('contact') }>Kontak</a>
                                 </li>
                             </ul>
-                            <div class="others-options d-flex align-items-center">
-                                <div class="option-item">
+                            <div className="others-options d-flex align-items-center">
+                                <div className="option-item">
                                     <a href="assets/CV Andaru Triadi.pdf" class="btn btn_navber">Download CV</a>
                                 </div>
                             </div>
